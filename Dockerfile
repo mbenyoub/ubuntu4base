@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:trusty
 MAINTAINER alexandre.allouche@xcg-consulting.fr 
 
 # Define some ENV variables
@@ -20,5 +20,5 @@ RUN tar xzf /opt/sources/etcd-v0.4.6-linux-amd64.tar.gz -C /usr/local/bin etcd-v
 
 # get latest stable confd
 # ADD will always add downloaded files with a 600 permission
-ADD https://github.com/kelseyhightower/confd/releases/download/v0.5.0/confd-0.5.0-linux-amd64 /usr/local/bin/confd
+ADD https://github.com/kelseyhightower/confd/releases/download/v0.6.3/confd-0.6.3-linux-amd64 /usr/local/bin/confd
 RUN chmod +x /usr/local/bin/confd
