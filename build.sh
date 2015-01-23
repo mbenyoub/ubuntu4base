@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t xcgd/ubuntu4base ./
+docker build -t xcgd/ubuntu4base .
