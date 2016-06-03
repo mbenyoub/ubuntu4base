@@ -1,4 +1,4 @@
-FROM ubuntu-debootstrap:trusty
+FROM ubuntu:trusty
 MAINTAINER alexandre.allouche@xcg-consulting.fr 
 
 # Define some ENV variables

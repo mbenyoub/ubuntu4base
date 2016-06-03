@@ -1,7 +1,9 @@
 ubuntu trusty with confd and etcd dockerized
 ============================================
 
-This is based on ubuntu-debootstrap:trusty with built-in etcdctl and confd as executable binaries
+This is based on ubuntu:trusty with built-in etcdctl and confd as executable binaries.
+
+(It was based on ubuntu-debootstrap but as it is deprecated, the standard image is now used)
 
 What is it?
 ===========
