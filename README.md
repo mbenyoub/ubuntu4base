@@ -1,14 +1,12 @@
-ubuntu trusty with confd and etcd dockerized
+Ubuntu xenial with confd and etcd dockerized
 ============================================
 
-This is based on ubuntu:trusty with built-in etcdctl and confd as executable binaries.
-
-(It was based on ubuntu-debootstrap but as it is deprecated, the standard image is now used)
+This is based on ubuntu:xenial with built-in etcdctl and confd as executable binaries.
 
 What is it?
 ===========
 
-Nothing more than the genuine ubuntu:trusty with binaries from the last stable releases of
+Nothing more than the genuine ubuntu:xenial with binaries from the last stable releases of
 
     confd https://github.com/coreos/etcd/releases
     etcdctl https://github.com/kelseyhightower/confd/releases 

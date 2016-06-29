@@ -1,4 +1,4 @@
-FROM ubuntu:trusty
+FROM ubuntu:xenial
 MAINTAINER alexandre.allouche@xcg-consulting.fr 
 
 # Define some ENV variables
