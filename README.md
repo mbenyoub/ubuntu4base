@@ -1,4 +1,4 @@
-ubuntu trusty with confd and etcd dockerized
+Ubuntu trusty with confd and etcd dockerized
 ============================================
 
 This is based on ubuntu:trusty with built-in etcdctl and confd as executable binaries.
